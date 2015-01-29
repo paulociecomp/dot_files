@@ -11,6 +11,7 @@ alias 'gpush'="git push"
 alias 'gadd'="git add --all"
 alias 'gl'="git lg"
 alias 'gf'="git fetch -p"
+alias 'gpr'="git pull --rebase"
 alias 'pryc'='pry -r ./config/environment'
 alias 'br'='be rake'
 alias 'brc'='be rails c'
@@ -25,7 +26,7 @@ alias 'mysql'='mysql -u root'
 alias 'subl'='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 
 # Acesso aos projetos favoritos
-alias bizusafo="cd ~/projects/bizusafo && gst && source ~/.bizusafo_environment"
+#alias bizusafo="cd ~/projects/bizusafo && gst && source ~/.#bizusafo_environment"
 
 # Mostrar e Esconder arquivos ocultos
 alias fyhidden="defaults write com.apple.finder AppleShowAllFiles -bool true"
